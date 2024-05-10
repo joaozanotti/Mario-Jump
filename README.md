@@ -14,4 +14,4 @@ Este projeto se trata de um jogo simples do mario de pular canos. Ele ainda cont
 </div>
 
 ## 🚧 Autor
-`João Vitor Zanotti` 
+João Vitor Zanotti
