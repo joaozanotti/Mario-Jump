@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Jump</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+</head>
+<body id="body">
+    <audio src="../audio/soundtrack.mp3" id="audio-soundtrack" loop></audio>
+    <audio src="../audio/jump.mp3" id="audio-jump"></audio>
+    <audio src="../audio/damage.mp3" id="audio-damage"></audio>
+    <audio src="../audio/game-over.mp3" id="audio-game-over"></audio>
+    <div id="game-start">
+        <h3>MARIO JUMP</h3>
+        <br>
+        <p>Press Enter to start</p>
+        <p>Press Space to jump</p>
+    </div>
+    <div id="game-over">
+        <h3>GAME OVER</h3>
+        <br>
+        <p>Press R to restart</p>
+    </div>
+    <div class="game">
+        <div class="nav">
+            <div id="score"></div>
+            <div id="lifes"></div>
+        </div>
+        <div class="game-board">
+            <img src="../img/mario-run.gif" class="mario">
+            <img src="../img/clouds.png" class="clouds">
+        </div>
+        <div class="ground">
+            <div class="grass"></div>
+            <div class="dirt"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

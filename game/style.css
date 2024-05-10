@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-board {
+    width: 100%;
+    flex-grow: 3;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87ceeb, #E8F6FF);
+}
+
+.ground {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.grass {
+    width: 100%;
+    flex-grow: 1;
+    background: #048300;
+}
+
+
+.dirt {
+    width: 100%;
+    flex-grow: 3;
+    background: #633902;
+}
+
+.pipe {
+    position: absolute;
+    bottom: -20px;
+    right: -80px;
+    width: 80px;
+}
+
+.pipe-animation-1 {
+    animation: pipe-animation 1.5s infinite linear;
+}
+
+.pipe-animation-2 {
+    animation: pipe-animation 2s infinite linear;
+}
+
+.pipe-animation-3 {
+    animation: pipe-animation 2.5s infinite linear;
+}
+
+.mario {
+    width: 150px;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.jump {
+    animation: jump 500ms ease-out;
+}
+
+.clouds {
+    width: 400px;
+    top: 50px;
+    position: absolute;
+}
+
+.clouds-animation {
+    animation: clouds 20s infinite linear;
+}
+
+.nav {
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 65px;
+    z-index: 3;
+    font-size: 26px;
+    color: #fff;
+    z-index: 3;
+}
+
+#score {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
+}
+
+#lifes {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 20px;
+}
+
+#game-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 28px;
+    display: none;
+    z-index: 4;
+}
+
+#game-over {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 28px;
+    display: none;
+    z-index: 2;
+}
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;   
+    } 
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 0;
+    }
+    40% {
+        bottom: 200px;
+    }
+    50% {
+        bottom: 200px;
+    }
+    60% {
+        bottom: 200px;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+@keyframes clouds {
+    from {
+        right: -550px;
+    }
+    to {
+        right: 100%;
+    }
+}
