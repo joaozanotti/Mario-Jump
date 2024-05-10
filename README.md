@@ -4,7 +4,7 @@
 </div>
 
 ## 📄 Descrição do projeto
-Este projeto se trata de um jogo simples do mario de pular canos. Ele ainda conta com sistema de vidas, pontuação e criação dinâmica dos canos
+Este projeto se trata de um jogo simples do mario de pular canos. Ele ainda conta com sistema de vidas, pontuação e criação dinâmica dos canos.
 
 ## 🛠 Tecnologias utilizadas
 <div>
