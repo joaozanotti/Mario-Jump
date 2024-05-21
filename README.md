@@ -3,15 +3,15 @@
   <img src="https://i.ibb.co/sQ0dXJ2/mario-game.png" width="500px">
 </div>
 
-## 📄 Descrição do projeto
+## 📝 Descrição do projeto
 Este projeto se trata de um jogo simples do mario de pular canos.<br> 
 Conta com sistema de vidas, pontuação e criação dinâmica dos canos.
 
 ## 🛠 Tecnologias utilizadas
 <div>
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
-  <img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
 ## 🚀 Deploy
